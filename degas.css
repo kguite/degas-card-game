@@ -20,13 +20,14 @@ body{
     font-size: 2rem;
     outline: none;
     margin: 0 auto;
+    margin-top: 30px;
     
 }
 
 .btn-1:hover{
-    box-shadow: inset 300px 0 0 0 rgb(235, 14,);
+    box-shadow: inset 300px 0 0 0 rgb(235, 14, 60);
     cursor: pointer;
-     color:white;
+    color:white;
 }
 
 .cardSelection{
