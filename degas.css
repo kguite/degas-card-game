@@ -75,13 +75,18 @@ body{
         text-align: center;
         padding: 10px;
         line-height: 1.2rem;
+        font-size: 2rem;
         
+    }
+    
+    .page-header > p {
+        font-size: 2rem;
     }
 
     .page-footer, p, a {
         color: white;
         text-decoration: none;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 1.5rem;
         padding: 10px;
     }
@@ -89,6 +94,8 @@ body{
     .page-body {
         flex-grow: 1;
     }
+    
+    
     
 
    
