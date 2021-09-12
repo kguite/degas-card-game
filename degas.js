@@ -19,7 +19,8 @@ function shuffleCards() {
         card3 = 'card3.jpg',
         card4 = 'card4.jpg',
         card5 = 'card5.jpg',
-        cards = [card1, card1, card2, card2, card3, card3, card4, card4, card5, card5];
+        card6 = 'card6.jpeg',
+        cards = [card1, card1, card2, card2, card3, card3, card4, card4, card5, card5, card6, card6];
     // deck holds all the section elements with the class 'card'
     const deck = document.querySelectorAll('.card');
     //In deck, for each card, do the following:
@@ -31,7 +32,7 @@ function shuffleCards() {
         // Repeat that action until variable, random, is given a value, representing an index in array, cards, 
         // that is not undefined.
         do {
-            random = Math.floor(Math.random() * 10)
+            random = Math.floor(Math.random() * 12)
             console.log(random)
         } while (cards[random] === undefined)
 
